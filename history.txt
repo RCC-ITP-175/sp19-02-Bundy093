@@ -1,0 +1,7 @@
+    1  cat states.txt
+    2  sed 's/a/z/' states.txt
+    3  cat states.txt | sort > stztes.txt
+    4  cat stztes.txt
+    5  ~/.bash_profile
+    6  nano ~/.bash_profile
+    7  history > history.txt
