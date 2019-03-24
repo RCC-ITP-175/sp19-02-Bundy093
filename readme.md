@@ -7,3 +7,26 @@
     **DO NOT use the source command to reload your console.** You can use the `refresh` to reload your console and verify your alias is working.
 
 1. Type `history > history.txt` this will create a file called history.txt that contains all of the commands you entered to accomplish these tasks.
+
+
+# INSTRUCTOR FEEDBACK
+
+Task: Sort states.txt alphabetically and save it as a new file named states-sorted.txt
+10/10 possible points
+
+Task: In states.txt, replace all occurrences of the letter a with the letter z and save it as a new file named stztes.txt
+7/10 possible points
+Your command only changes the first a to z
+Use sed 's/a/z/g' states.txt to change all of them
+You need to also end with > stztes.txt to redirect the output
+to a new file instead of the terminal itself.
+Correct answer
+sed 's/a/z/g' states.txt > stztes.txt
+
+Task: Edit ~/.bash_profile and create an alias for the command ls -alt that equals l
+10/10 possible points
+
+Task: Type history > history.txt
+10/10 possible points
+
+# END INSTRUCTOR FEEDBACK
