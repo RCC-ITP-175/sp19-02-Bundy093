@@ -16,15 +16,18 @@ Task: Sort states.txt alphabetically and save it as a new file named states-sort
 
 Task: In states.txt, replace all occurrences of the letter a with the letter z and save it as a new file named stztes.txt
 7/10 possible points
+
 Your command only changes the first a to z
-Use sed 's/a/z/g' states.txt to change all of them
-You need to also end with > stztes.txt to redirect the output
-to a new file instead of the terminal itself.
-Correct answer
-sed 's/a/z/g' states.txt > stztes.txt
+
+Use `sed 's/a/z/g' states.txt` to change all of them
+
+You need to also end with > stztes.txt to redirect the output to a new file instead of the terminal itself.
+
+Correct answer `sed 's/a/z/g' states.txt > stztes.txt`
 
 Task: Edit ~/.bash_profile and create an alias for the command ls -alt that equals l
 8/10 possible points
+
 Correct answer `alias l="ls -alt"`
 
 Task: Type history > history.txt
