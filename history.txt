@@ -5,20 +5,3 @@
 5  ~/.bash_profile
 6  nano ~/.bash_profile
 7  history > history.txt
-
-# INSTRUCTOR FEEDBACK
-# Task: Sort states.txt alphabetically and save it as a new file named states-sorted.txt
-# 10/10 possible points
-# Task: In states.txt, replace all occurrences of the letter a with the letter z and save it as a new file named stztes.txt
-# 7/10 possible points
-# Your command only changes the first a to z
-# Use sed 's/a/z/g' states.txt to change all of them
-# You need to also end with > stztes.txt to redirect the output
-# to a new file instead of the terminal itself.
-# Correct answer
-# sed 's/a/z/g' states.txt > stztes.txt
-# Task: Edit ~/.bash_profile and create an alias for the command ls -alt that equals l
-# 10/10 possible points
-# Type history > history.txt
-# 10/10 possible points
-# END INSTRUCTOR FEEDBACK
