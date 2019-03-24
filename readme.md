@@ -24,7 +24,8 @@ Correct answer
 sed 's/a/z/g' states.txt > stztes.txt
 
 Task: Edit ~/.bash_profile and create an alias for the command ls -alt that equals l
-10/10 possible points
+8/10 possible points
+Correct answer `alias l="ls -alt"`
 
 Task: Type history > history.txt
 10/10 possible points
